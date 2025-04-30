@@ -1,0 +1,46 @@
+/* App.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  overflow: hidden; /* Prevent scroll */
+}
+
+.app-container {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.status-text {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.status-text:empty {
+  display: none;
+}
+
+.keyboard-wrapper {
+  width: 100%;
+}
